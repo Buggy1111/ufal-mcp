@@ -3,7 +3,12 @@
 import asyncio
 import json
 
-from ufal_mcp.server import anonymize, check_readability, extract_entities
+from ufal_mcp.server import (
+    analyze_morphology,
+    anonymize,
+    check_readability,
+    extract_entities,
+)
 
 
 SAMPLE = (
@@ -22,14 +27,26 @@ async def main() -> None:
     anon = await anonymize(SAMPLE)
     print(json.dumps(anon, ensure_ascii=False, indent=2))
 
+    print("\n=== analyze_morphology ===")
+    morph = await analyze_morphology("Jiří podal žalobu u Krajského soudu v Ostravě.")
+    print(json.dumps({
+        "model": morph["model"],
+        "tokens": morph["token_count"],
+        "first_sentence": morph["sentences"][0],
+    }, ensure_ascii=False, indent=2))
+
     print("\n=== check_readability ===")
     pn = await check_readability(
         "Účastníku řízení se ukládá povinnost ve lhůtě patnácti dnů "
         "ode dne doručení tohoto usnesení uhradit státu náklady řízení "
         "sestávající z odměny ustanoveného zástupce."
     )
-    print("stats:", json.dumps(pn["stats"], ensure_ascii=False, indent=2))
-    print("html len:", len(pn["highlighted_html"]))
+    print(json.dumps({
+        "version": pn["version"],
+        "counts": pn["counts"],
+        "metrics": {k: v["value"] for k, v in pn["metrics"].items()},
+        "html_len": len(pn["highlighted_html"]),
+    }, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
