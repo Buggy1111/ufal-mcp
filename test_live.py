@@ -16,6 +16,7 @@ from ufal_mcp.server import (
     check_readability,
     correct_text,
     extract_entities,
+    translate_text,
 )
 
 
@@ -162,6 +163,30 @@ async def test_korektor():
     print(f"   Výsledek: {sp['corrected']}")
 
 
+async def test_translator():
+    print("\n" + "=" * 70)
+    print("TEST 7: Charles Translator (CZ↔EN, UK→CZ, doc mode)")
+    print("=" * 70)
+
+    r1 = await translate_text(CZ_JIRIK, src="cs", tgt="en")
+    print(f"\n→ CZ → EN (pair={r1['pair']}):")
+    print(f"   {r1['translated']}")
+
+    r2 = await translate_text(
+        "Олександр Петренко з Києва подав заяву про надання притулку v České republice.",
+        src="uk", tgt="cs",
+    )
+    print(f"\n→ UK → CZ (UA legal aid use case):")
+    print(f"   {r2['translated']}")
+
+    r3 = await translate_text(
+        "Vážená paní ředitelko,\n\nděkuji za potvrzení termínu Zoom callu.\n\nS pozdravem,\nMichal",
+        src="cs", tgt="en", document_mode=True,
+    )
+    print(f"\n→ DOC mode CZ → EN (zachová strukturu odstavců):")
+    print(f"   {r3['translated']}")
+
+
 async def test_ponk():
     print("\n" + "=" * 70)
     print("TEST 6: PONK (čitelnost CZ právního textu)")
@@ -176,7 +201,7 @@ async def test_ponk():
 
 async def main():
     print("\n" + "█" * 70)
-    print("█  ufal-mcp v0.4.0 — REAL-WORLD SMOKE TEST")
+    print("█  ufal-mcp v0.5.0 — REAL-WORLD SMOKE TEST")
     print("█  Datum: 2026-05-20, testy běží proti živým ÚFAL REST API")
     print("█" * 70)
 
@@ -186,6 +211,7 @@ async def main():
         await test_sk()
         await test_multilingual()
         await test_korektor()
+        await test_translator()
         await test_ponk()
         print("\n" + "█" * 70)
         print("█  ✓ VŠECHNY TESTY PROBĚHLY")
