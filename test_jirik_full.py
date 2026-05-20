@@ -167,22 +167,34 @@ async def run():
     """
     sections.append(anon_html)
 
-    # --- 4. PONK readability ---
-    print("[4/6] check_readability (PONK)...")
+    # --- 4. PONK readability — RICH OUTPUT v0.7.0 ---
+    print("[4/6] check_readability (PONK rich)...")
     t0 = time.time()
-    pn = await check_readability(text)
+    pn = await check_readability(
+        text,
+        include_rules=True,
+        include_lexical_surprise=True,
+        include_speech_acts=True,
+        include_highlighted_html=True,
+    )
     t_ponk = time.time() - t0
-    print(f"      → PONK v{pn['version']} ({t_ponk:.1f}s)")
+    rules = pn.get("rules", [])
+    lex = pn.get("lexical_surprise", {})
+    acts = pn.get("speech_acts", {})
+    print(f"      → PONK v{pn['version']} ({t_ponk:.1f}s) — "
+          f"{len(rules)} pravidel, {lex.get('summary', {}).get('very_surprising', 0)} velmi vzácných slov")
     (JSON_DIR / "4_check_readability.json").write_text(
         json.dumps({k: v for k, v in pn.items() if k != "highlighted_html"},
                    ensure_ascii=False, indent=2), encoding="utf-8")
-    # PONK highlighted HTML separately
     (OUT_DIR / "03_ponk_highlighted.html").write_text(
         pn.get("highlighted_html", ""), encoding="utf-8")
 
+    # === Section 4a: Overall metrics ===
     ponk_html = f"""
-    <h2>4. check_readability — Čitelnost (PONK)</h2>
-    <div class="meta">Version: <code>{esc(pn.get('version', ''))}</code> · {t_ponk:.1f}s</div>
+    <h2>4. check_readability — Čitelnost (PONK v{esc(pn.get('version', ''))})</h2>
+    <div class="meta">{t_ponk:.1f}s · {len(rules)} aktivovaných pravidel · sentences: {pn.get('counts', {}).get('sentences', '?')} · tokens: {pn.get('counts', {}).get('tokens', '?')}</div>
+
+    <h3>4a. Overall metrics</h3>
     <table class="ent">
         <thead><tr><th>Metrika</th><th>Hodnota</th><th>Význam</th></tr></thead>
         <tbody>
@@ -197,6 +209,45 @@ async def run():
         val = v.get("value") if isinstance(v, dict) else v
         ponk_html += f"<tr><td>{esc(k)}</td><td><strong>{esc(str(val))}</strong></td><td class='small'>{esc(metric_info.get(k, ''))}</td></tr>"
     ponk_html += "</tbody></table>"
+
+    # === Section 4b: Gramatická pravidla (NOVÉ v v0.7.0) ===
+    ponk_html += "<h3>4b. ⭐ Aktivovaná gramatická pravidla (akční rady)</h3>"
+    if not rules:
+        ponk_html += "<p class='small'>Žádná pravidla se v textu neaktivovala.</p>"
+    else:
+        ponk_html += "<table class='ent'><thead><tr><th>Počet</th><th>Pravidlo</th><th>Doporučení (cz_doc)</th></tr></thead><tbody>"
+        for rule in rules:
+            color = rule.get("color") or "#666"
+            ponk_html += (
+                f"<tr>"
+                f"<td><strong style='color:{color}'>{rule['count']}×</strong></td>"
+                f"<td><strong>{esc(rule.get('cz_name', '?'))}</strong></td>"
+                f"<td class='small'>{esc(rule.get('cz_doc', ''))}</td>"
+                f"</tr>"
+            )
+        ponk_html += "</tbody></table>"
+
+    # === Section 4c: Lexical surprise ===
+    summary = lex.get("summary", {})
+    ponk_html += f"""
+    <h3>4c. Lexical surprise — distribuce vzácnosti slov</h3>
+    <table class="ent">
+        <tbody>
+            <tr><td>Běžná slova (úroveň 1-6)</td><td><strong>{summary.get('common', 0)}</strong></td></tr>
+            <tr><td>Vzácnější slova (úroveň 7-12)</td><td><strong>{summary.get('surprising', 0)}</strong></td></tr>
+            <tr><td>Velmi vzácná / odborná (úroveň 13-16)</td><td><strong>{summary.get('very_surprising', 0)}</strong></td></tr>
+        </tbody>
+    </table>
+    """
+
+    # === Section 4d: Speech acts ===
+    types = acts.get("types", {})
+    ponk_html += "<h3>4d. Speech acts — typy vět (k dispozici PONK kategorie)</h3>"
+    if types:
+        ponk_html += "<table class='ent'><thead><tr><th>Typ</th><th>Barva</th></tr></thead><tbody>"
+        for name, color in sorted(types.items()):
+            ponk_html += f"<tr><td>{esc(name)}</td><td><code style='background:{color};padding:2px 8px;color:#000'>{esc(color)}</code></td></tr>"
+        ponk_html += "</tbody></table>"
     sections.append(ponk_html)
 
     # --- 5. Korektor (diacritics test) ---
