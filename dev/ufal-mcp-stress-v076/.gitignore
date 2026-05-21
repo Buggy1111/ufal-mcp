@@ -1,0 +1,17 @@
+# Raw test outputs (transient, generated per-run)
+results/raw/
+results/all_results.json
+results/ultimate/anonymize*.json
+results/ultimate/extract_entities.json
+results/ultimate/analyze_morphology.json
+results/ultimate/check_readability.json
+results/ultimate/correct_text.json
+results/ultimate/translate_text.json
+results/ultimate/coverage.json
+results/ultimate/summary.json
+results/multilingual/*.json
+!results/multilingual/MULTILINGUAL-TEST.md
+
+# Python cache
+__pycache__/
+*.pyc

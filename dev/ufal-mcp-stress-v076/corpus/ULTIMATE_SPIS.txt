@@ -1,0 +1,337 @@
+KRAJSKÝ SOUD V OSTRAVĚ
+Havlíčkovo nábřeží 1835/34, 728 81 Ostrava - Moravská Ostrava
+tel.: +420 596 153 111, datová schránka: ud4abqd
+
+ROZSUDEK
+JMÉNEM REPUBLIKY
+
+Č. j.: 12 C 187/2024-45
+Sp. zn.: 12 C 187/2024
+
+Krajský soud v Ostravě rozhodl samosoudkyní Mgr. Janou Novotnou ve věci
+
+žalobce: Ing. Jiří Pluhařík, narozen 12. 3. 1980,
+        rodné číslo: 800312/1234,
+        bytem Hlavní 254/15, 708 00 Ostrava - Poruba,
+        zastoupený advokátem JUDr. Petrem Černým, advokátem se sídlem
+        Stodolní 21, 702 00 Ostrava, IČO: 12345678, DIČ: CZ12345678,
+        ev. č. ČAK 09876, datová schránka: ab7c2dx,
+        tel.: 777 123 456, email: cerny.advokat@example.cz
+
+proti
+
+žalovanému: ABC Manufacturing s.r.o., IČO: 28765432, DIČ: CZ28765432,
+           se sídlem Průmyslová 1024/8, 736 01 Havířov - Město,
+           datová schránka: x9k4lm2,
+           jednající jednatelem Ing. Tomášem Novákem, narozeným 5. 7. 1975,
+           rodné číslo 7507051234,
+           bytem Slezská 47, 736 01 Havířov,
+           tel: +420 603 987 654, mobil: 728 18 18 10,
+           email: tomas.novak@abc-manufacturing.cz
+
+o zaplacení 250 000 Kč s příslušenstvím
+
+t a k t o:
+
+I. Žalovaný je povinen zaplatit žalobci částku 250 000 Kč
+   (slovy: dvěstěpadesáttisíc korun českých) s úrokem z prodlení ve výši
+   8,5 % p.a. od 1. 4. 2024 do zaplacení, na účet žalobce
+   č. 19-2000145399/0800, vedený u Československé obchodní banky a.s.,
+   IBAN: CZ65 0800 0000 1920 0014 5399, BIC/SWIFT: CEKOCZPP.
+
+II. Žalovaný je povinen nahradit žalobci náklady řízení ve výši 45 240 Kč
+    do 3 dnů od právní moci rozsudku, k rukám advokáta žalobce
+    JUDr. Petra Černého (č. účtu 35-1234567890/0100).
+
+III. Žalobu zamítá v části, v níž se žalobce domáhal úroku z prodlení
+     za období před 1. 4. 2024.
+
+Odůvodnění:
+
+Žalobce se žalobou podanou dne 15. 4. 2024 domáhal po žalovaném zaplacení
+částky 250 000 Kč jako náhrady škody způsobené porušením kupní smlouvy
+ze dne 12. 1. 2024 dle § 2910 a § 2913 zákona č. 89/2012 Sb.,
+občanského zákoníku.
+
+Žalobce ve své výpovědi ze dne 22. 5. 2024 (na adrese soudu, v jednací síni
+č. 4) uvedl, že žalovaný dodal vadné zboží — silikonové těsnění VMQ-70
+v rozporu s normou ČSN EN ISO 9001:2015. Vady byly potvrzeny posudkem
+znalce doc. Ing. Karla Bílého, CSc., (zapsaný v seznamu znalců pod ev.
+č. 4521), tel.: 602 456 789, který vypracoval znalecký posudek
+č.j. KZ-2024/187 dne 30. 3. 2024.
+
+Soud vyslechl svědky:
+- paní Martu Veselou, RČ 855218/4567, bytem Mírová 12, 738 01 Frýdek-Místek
+- pana Pavla Modrého, narozeného 18.11.1965, RČ 651118 5432,
+  bytem Husova 7, 702 00 Ostrava
+
+Žalovaný zaslal vyjádření dne 10. 6. 2024 prostřednictvím své datové
+schránky (datová schránka: x9k4lm2), v němž ... [další odůvodnění] ...
+
+Žalovaný v reakci na výzvu soudu ze dne 1. 7. 2024 (sp. zn. 12 C 187/2024)
+namítal, že předmětná smlouva podléhala arbitrážní doložce dle čl. 11
+smlouvy. Soud však dospěl k závěru, že arbitrážní doložka je neplatná
+ve smyslu § 39 OZ.
+
+Poznámka soudu: žalobce předložil rovněž e-mailovou korespondenci ze dne
+3. 2. 2024 z adresy info@abc-manufacturing.cz na cerny.advokat@example.cz
+a SMS komunikaci ze dne 5. 2. 2024 mezi účastníky.
+
+==================================================================
+SEKCE B — LÉKAŘSKÁ ZPRÁVA (přiložena jako důkaz)
+==================================================================
+
+FAKULTNÍ NEMOCNICE OSTRAVA
+Klinika ortopedická
+17. listopadu 1790/5, 708 52 Ostrava-Poruba
+IČO: 00843989, DIČ: CZ00843989
+
+PROPOUŠTĚCÍ ZPRÁVA č. PZ-2024/4521
+
+Pacient: Ing. Jiří Pluhařík
+Rodné číslo: 800312/1234
+Číslo pojištěnce: 8003121234
+Zdravotní pojišťovna: VZP ČR (kód 111)
+Bydliště: Hlavní 254/15, 708 00 Ostrava-Poruba
+Telefon: +420 777 123 456, email: jiri.pluharik@example.cz
+
+Datum přijetí: 12. 2. 2024 v 14:35
+Datum propuštění: 19. 2. 2024 v 10:00
+Hospitalizace: 7 dnů
+
+Hlavní diagnóza dle MKN-10:
+S82.2 — Zlomenina tibie, levá dolní končetina (otevřená Gustilo I)
+
+Vedlejší diagnózy:
+- I10 Esenciální hypertenze
+- E11.9 Diabetes mellitus 2. typu bez komplikací
+- Z51.1 Antineoplastická chemoterapie (st. p. CA prostaty 2019)
+
+Anamnéza: Pacient přijat dne 12.2.2024 pro otevřenou zlomeninu levé tibie
+po pracovním úrazu ve výrobním závodě ABC Manufacturing s.r.o.
+(viz souběžný spis č.j. 12 C 187/2024).
+
+Léčba:
+- Cefuroxim 1.5g i.v. 3x denně 5 dnů (profylaxe ATB)
+- Paracetamol 500 mg p.o. dle potřeby (max 4x denně)
+- Enoxaparin 40 mg s.c. 1x denně (DVT profylaxe)
+- Osteosyntéza otevřenou repozicí, vnitřní fixací LCP dlahou
+- RHB ambulantně 3x týdně
+
+Lékař: MUDr. Karel Svoboda, Ph.D., primář kliniky
+       IČZ: 12345-678, tel.: 597 372 100, email: svoboda@fno.cz
+Konzultoval: prof. MUDr. Tomáš Bílý, DrSc. (FN Brno, IČZ 65432-100)
+
+Kontrolní vyšetření: 5. 3. 2024 v 9:00, ortopedická ambulance
+                     (registrace na tel. 597 372 200)
+
+Bank. spojení pro doplatek: 27-1234567890/0300
+Datová schránka FNO: gh4nqpr
+
+==================================================================
+SEKCE C — VĚDECKÁ STUDIE (přiložena jako důkaz znalce)
+==================================================================
+
+UNIVERZITA KARLOVA V PRAZE
+Matematicko-fyzikální fakulta
+Ústav formální a aplikované lingvistiky (ÚFAL)
+Malostranské náměstí 25, 118 00 Praha 1
+
+ZNALECKÝ POSUDEK č. KZ-2024/187
+
+Autor: doc. Ing. Karel Bílý, CSc.
+       ORCID: 0000-0002-1825-0097
+       Researcher ID: AAB-1234-5678
+       Email: karel.bily@matfyz.cuni.cz, kbily@example.org
+       Tel.: 602 456 789
+       Datová schránka: bily2025
+
+Spolupracovníci:
+- Mgr. Eva Hladká, Ph.D. (vedoucí týmu), eva.hladka@matfyz.cuni.cz
+- Mgr. Jan Mírovský, Ph.D., mirovsky@ufal.mff.cuni.cz
+- Bc. Lukáš Valach, valach.lukas@gmail.com, tel. 605 111 222
+
+Grant: GA ČR č. 21-12345S "Pseudonymizace českých právních textů"
+       Doba řešení: 1. 1. 2021 — 31. 12. 2024
+       Financování: 12 500 000 Kč
+
+Citace:
+[1] Pluhařík, J. (2023). Anonymizace v právní praxi. Právní rozhledy,
+    21(4), s. 123-145. ISSN 1210-6410. DOI: 10.5817/PR2023-4-12.
+[2] Mírovský, J., Hladká, E. (2024). MasKIT 2.0: A pseudonymization
+    pipeline. In Proceedings of LREC-COLING 2024, Turín, str. 4521-4530.
+[3] ÚFAL MFF UK (2024). NameTag 3: Multilingual NER. Software v1.2.0.
+    Dostupné: https://ufal.mff.cuni.cz/nametag/3
+
+==================================================================
+SEKCE D — DODATKY (smíšené PII pro stress test)
+==================================================================
+
+Kontaktní seznam svědků v této věci:
+1. Jiří Pluhařík, 800312/1234, +420 777 123 456, jiri@example.cz
+2. Tomáš Novák, 7507051234, +420 603 987 654, t.novak@example.com
+3. Marta Veselá, 855218 4567, 605-123-789, vesela.marta@seznam.cz
+4. Pavel Modrý, 65-11-18/5432, 728 18 18 10, p.modry@centrum.cz
+5. Karel Bílý, 580412 1234, 602 456 789, bily@matfyz.cuni.cz
+
+Bankovní spojení účastníků:
+- Žalobce: 19-2000145399/0800 (ČSOB)
+- Žalovaný: 1234567890/2010 (Fio banka)
+- Advokát: 35-1234567890/0100 (KB)
+- Soud (depozit): 6015-1234567/0710 (ČNB)
+- IBAN žalobce: CZ65 0800 0000 1920 0014 5399
+
+Datové schránky:
+- Krajský soud Ostrava: ud4abqd
+- ABC Manufacturing s.r.o.: x9k4lm2
+- Advokát Černý: ab7c2dx
+- Pluhařík: pl3jx5q
+- FN Ostrava: gh4nqpr
+- ÚFAL MFF UK: bily2025 (osobní)
+
+Adresy doručovací:
+Pluhařík J., Hlavní 254/15, 708 00 Ostrava-Poruba, ČR
+Novák T., Slezská 47, 736 01 Havířov, ČR
+ABC Manufacturing s.r.o., Průmyslová 1024/8, 736 01 Havířov-Město, ČR
+JUDr. Černý, Stodolní 21, 702 00 Ostrava, ČR
+ÚFAL MFF UK, Malostranské náměstí 25, 118 00 Praha 1, ČR
+
+==================================================================
+SEKCE E — BANKOVNÍ VÝPIS (důkaz uhrazení nákladů)
+==================================================================
+
+ČESKÁ SPOŘITELNA, a.s.
+Olbrachtova 1929/62, 140 00 Praha 4
+
+VÝPIS Z ÚČTU č. 1234567890
+Účet: 1234567890/0800 (Žalobce: Pluhařík J.)
+IBAN: CZ74 0800 0000 0012 3456 7890, BIC: GIBACZPX
+Období: 1.4.2024 - 30.4.2024
+Karta vázaná k účtu: 4539 1488 0343 6467 (Visa Debit, platnost 12/2027)
+
+Pohyby:
+05.04.2024  Příchozí platba +50 000 CZK
+             od ABC Manufacturing s.r.o.
+             VS: 1234567890  KS: 0308  SS: 2024
+             Zpráva: úhrada faktury č. 24-0145
+
+12.04.2024  Odchozí platba -45 000 CZK
+             na účet 27-1234567890/0300 (FN Ostrava)
+             var. symbol 240412, konst. symbol 0558
+             spec. symbol 187 (sp. zn. 12 C 187/2024)
+
+==================================================================
+SEKCE F — KATASTRÁLNÍ INFORMACE (důkaz vlastnictví nemovitosti)
+==================================================================
+
+KATASTRÁLNÍ ÚŘAD PRO MORAVSKOSLEZSKÝ KRAJ
+Katastrální pracoviště Ostrava
+Vítkovická 161, 702 00 Ostrava
+
+VÝPIS Z KATASTRU NEMOVITOSTÍ
+List vlastnictví č. 4521
+Katastrální území: Ostrava-Poruba
+
+Vlastník: Ing. Jiří Pluhařík (RČ 800312/1234)
+          Hlavní 254/15, 708 00 Ostrava-Poruba
+
+Předmět vlastnictví:
+ - p.č. 1234/5 (zastavěná plocha a nádvoří, 245 m²)
+ - parc. č. 1234/6 (zahrada, 412 m²)
+ - st. parc. 567 (budova č.p. 254, bytový dům)
+ - LV 4521 vedený pro k.ú. Poruba
+
+Sousední parcely:
+ - p.č. 1234/4 (LV č. 4520, vlastník: Marie Nováková)
+ - parcela 1234/7 (LV 4522, město Ostrava)
+ - p.č. 1235 (LV č. 100, stát ČR)
+
+==================================================================
+SEKCE G — POJISTNÁ SMLOUVA AUTA (důkaz pojištění při události)
+==================================================================
+
+ČESKÁ POJIŠŤOVNA a.s.
+Spálená 75/16, 110 00 Praha 1, IČO: 45272956
+
+Pojistná smlouva č. 8765432101
+č. pojistky: ČP-2024-187654 (povinné ručení + havarijní)
+Datum sjednání: 15.1.2024, platnost: 1.2.2024 - 31.1.2025
+
+Pojistník / pojištěný:
+  Ing. Jiří Pluhařík, RČ 800312/1234
+  Hlavní 254/15, 708 00 Ostrava-Poruba
+  Tel.: +420 777 123 456, e-mail: jiri@example.cz
+
+Pojištěné vozidlo:
+  Tovární značka: Škoda Octavia III RS, rok výroby 2022
+  Registrační značka (SPZ): 5T9 1234
+  VIN: TMBAA9NE3M0123456
+  STK platnost: do 15.3.2026
+  Číslo TP: AB1234567
+
+Bonus/malus: 50 % (5 let bez škody)
+Roční pojistné: 24 800 Kč, var. symbol 8765432101
+
+==================================================================
+SEKCE H — NOTÁŘSKÝ ZÁPIS (plná moc pro advokáta)
+==================================================================
+
+JUDr. PhDr. Marie Krásná, notář
+se sídlem Stodolní 8, 702 00 Ostrava
+IČO: 66054321, datová schránka: not9zx2
+
+NOTÁŘSKÝ ZÁPIS
+NZ 234/2024, sp. zn. NZ 234/2024
+N 187/2024
+
+Sepsán dne 10. 4. 2024 v 10:00 hod. v notářské kanceláři.
+
+Účastník: Ing. Jiří Pluhařík, RČ 800312/1234,
+         bytem Hlavní 254/15, 708 00 Ostrava-Poruba,
+         totožnost ověřena občanským průkazem č. 123456789
+         (vydán MěÚ Ostrava 5. 6. 2018, platnost do 5. 6. 2028).
+
+Předmět zápisu: Generální plná moc pro advokáta JUDr. Petra Černého
+               (ev. č. ČAK 09876) k zastupování ve věci č.j. 12 C 187/2024.
+
+Notářské poplatky: 3 500 Kč uhrazeno převodem na účet
+                   123-1234567/0100, var. symbol NZ2342024.
+
+==================================================================
+SEKCE I — STUDIJNÍ POTVRZENÍ (dle § 68 SZ — k důkazu majetkové situace)
+==================================================================
+
+UNIVERZITA KARLOVA, MATEMATICKO-FYZIKÁLNÍ FAKULTA
+Studijní oddělení
+Ke Karlovu 3, 121 16 Praha 2
+
+POTVRZENÍ O STUDIU
+
+Student: Bc. Lukáš Valach
+        UČO: 12345678
+        Studijní číslo: 87654321
+        Datum narození: 4. 9. 2001
+        E-mail: valach.lukas@gmail.com
+        ISIC: S 410 002 123456 7
+
+Studijní program: Informatika, navazující magisterský
+Ročník: 2., zima 2024/25
+Forma: prezenční
+
+Zapsané předměty:
+ - NPFL103 Pokročilé NLP (doc. Hladká, e-mail: eva.hladka@matfyz.cuni.cz)
+ - NPFL104 Statistická lingvistika (Ph.D. Mírovský)
+
+Stipendium: 2 500 Kč/měsíc, vypláceno na účet 1234-5678/0710
+            VS: 12345678
+
+==================================================================
+
+V Ostravě dne 25. 7. 2024
+
+Mgr. Jana Novotná, samosoudkyně, v.r.
+
+(razítko soudu)
+
+Za správnost vyhotovení: Mgr. Petra Krátká, vedoucí kanceláře
+tel. 596 153 220, email: kratka@ksoud.justice.cz
